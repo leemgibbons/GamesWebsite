@@ -97,10 +97,12 @@ body {
 
 #sfv {
 	
-	 background:url(../images/sfvthumbnail251115.png);
+	  background:url(../images/sfvthumbnail251115.png);
       background-position: 154px 42px;
-	  width: 54px;
-	  height:auto;
+	  width: 83px;
+	  height: 20px;
+	  display:inline-block;
+	 
 	  
 }
 
@@ -111,18 +113,27 @@ body {
 	width: 50%;
 	margin-left:auto;
 	margin-right:auto;
+	padding-top: 20px;
 	height: 50em;
 	
 }
 
-.asideleft {
-	width: 50%;
-	margin-left: 5%;
-	margin-right: 2.5%;
-	float: left;
-	
+.boxstory {
+	width: 80%;
+	background-color: #ffffff;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 10px;	
+	padding: 15px;
 }
-.asideright {
-	float: right;
-	width: 30%;
+
+
+.boxstory  h3 {
+	margin-top: 0;
 }
+
+.storythumbnail {  
+width: 80%;
+height: auto;
+}
+
