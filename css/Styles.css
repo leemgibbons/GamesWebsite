@@ -1,0 +1,128 @@
+@charset "utf-8";
+
+h2 {
+	font-size: 1em;
+	font-family: amaranth;
+	font-style: normal;
+	font-weight: 400;
+}
+
+body {
+	
+		
+}
+
+/* Top Navbar Logo */
+
+
+.navbar {
+	
+
+	
+}
+
+
+.topnavbar {
+	
+	background-color: #252525;
+	border-bottom: solid 2px;
+	border-bottom-color: #5e5e5e;
+	
+}
+
+.topnavbar .linkssocial {
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: #5e5e5e;
+    font-size: 20px;
+    margin-top: 0px;
+	margin-bottom: 0px;
+    -webkit-font-smoothing: antialiased;
+	text-align:right;
+	vertical-align:middle;
+   
+}
+
+.linkssocial ul {
+ 
+}
+.linkssocial li {
+    display: inline-block;
+    margin-left: 1%;
+ 
+    text-align: center;
+}
+.linkssocial li:first-child {
+    margin-left: 0px;
+}
+.linkssocial .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+.linkssocial li:hover {
+    cursor: pointer;
+    color: #b5daff;
+}
+/* Top Navbar Games list  */
+
+.gamenavbar {
+
+	
+	color: rgba(255,255,255,1.00);
+	text-align: center;
+	
+	background: #252525; /* Old browsers */
+	background: -moz-linear-gradient(top,  #252525 0%, #5b5b5b 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #252525 0%,#5b5b5b 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #252525 0%,#5b5b5b 100%); }
+
+
+.linksgames {
+	margin: 0;	
+	padding-left: 20px;	
+}
+
+
+.linksgames li {
+	font-size: 2em;
+	font-family: league-gothic;
+	font-style: normal;
+	font-weight: 400;
+	display: inline-block;
+	padding-right: 0px;	
+	margin-left: 2.5%;
+    margin-right: 2.5%;
+
+}
+
+#sfv {
+	
+	 background:url(../images/sfvthumbnail251115.png);
+      background-position: 154px 42px;
+	  width: 54px;
+	  height:auto;
+	  
+}
+
+/* Main Content  */
+
+.Fullsite {
+	background-color: #5e5e5e;
+	width: 50%;
+	margin-left:auto;
+	margin-right:auto;
+	height: 50em;
+	
+}
+
+.asideleft {
+	width: 50%;
+	margin-left: 5%;
+	margin-right: 2.5%;
+	float: left;
+	
+}
+.asideright {
+	float: right;
+	width: 30%;
+}
