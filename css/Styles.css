@@ -15,12 +15,16 @@ body {
 /* Top Navbar Logo */
 
 
-.navbar {
-	
-
-	
+.navstart {
+	margin:0;
+	border: 0;	
 }
 
+
+.mobilediv {
+	
+	padding: 0;
+}
 
 .topnavbar {
 	
@@ -98,11 +102,12 @@ body {
 #sfv {
 	
 	  background:url(../images/sfvthumbnail251115.png);
-      background-position: 154px 42px;
-	  width: 83px;
-	  height: 20px;
+	  background-size: 40px 32px; 
+	  width: 40px;
+	  height: 34px;
+	  background-position: 40px 7px;
+	  background-repeat: repeat-x;
 	  display:inline-block;
-	 
 	  
 }
 
@@ -110,14 +115,36 @@ body {
 
 .Fullsite {
 	background-color: #5e5e5e;
-	width: 50%;
+	width: 80%;
 	margin-left:auto;
 	margin-right:auto;
 	padding-top: 20px;
-	height: 50em;
+	height: 250em;
 	
 }
 
+@media (max-width: 768px) {
+.Fullsite {
+	background-color: #5e5e5e;
+	width: 95%;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top: 20px;
+	height: 250em;
+	
+}
+}
+
+.boxstory {
+	width: 60%;
+	background-color: #ffffff;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 10px;	
+	padding: 15px;
+}
+
+@media (max-width: 768px) {
 .boxstory {
 	width: 80%;
 	background-color: #ffffff;
@@ -126,6 +153,9 @@ body {
 	margin-bottom: 10px;	
 	padding: 15px;
 }
+}
+
+
 
 
 .boxstory  h3 {
